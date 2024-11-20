@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Program</title>
+    <title>Quiz Program with Timer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Team Quiz Program</h1>
+        <h1>Server Team meeting</h1>
+        <div id="timer-section">
+            <span id="timer">02:00</span>
+        </div>
         <div id="name-picker">
             <h2>Random Participant: <span id="selected-name">...</span></h2>
             <button id="pick-name">Pick Random Name</button>
@@ -20,6 +23,7 @@
         <div id="feedback">
             <div id="happy-animation" class="hidden">🎉 Correct! 🎉</div>
             <div id="sad-animation" class="hidden">😞 Wrong! 😞</div>
+            <div id="timeout-warning" class="hidden">⏰ Time's Up!!! ⏰</div>
         </div>
     </div>
     <script src="script.js"></script>
