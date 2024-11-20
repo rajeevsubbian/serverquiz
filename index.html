@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Team Quiz Program</h1>
+        <div id="name-picker">
+            <h2>Random Participant: <span id="selected-name">...</span></h2>
+            <button id="pick-name">Pick Random Name</button>
+        </div>
+        <div id="quiz-section">
+            <h3 id="question">...</h3>
+            <div id="options"></div>
+        </div>
+        <div id="feedback">
+            <div id="happy-animation" class="hidden">🎉 Correct! 🎉</div>
+            <div id="sad-animation" class="hidden">😞 Wrong! 😞</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

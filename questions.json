@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Madrid"],
+        "answer": 0
+    },
+    {
+        "question": "What is 2 + 2?",
+        "options": ["3", "4", "5", "6"],
+        "answer": 1
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Venus"],
+        "answer": 1
+    },
+    {
+        "question": "Who wrote 'Hamlet'?",
+        "options": ["Charles Dickens", "Mark Twain", "William Shakespeare", "Leo Tolstoy"],
+        "answer": 2
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "answer": 3
+    }
+]
